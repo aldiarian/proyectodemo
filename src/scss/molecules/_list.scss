@@ -1,0 +1,18 @@
+@use '../atoms'  ;
+
+.m-list{
+    padding: 0 0 0 1rem;
+    &__item{
+        color: atoms.$color-grey;
+    }
+    &--horizontal{
+        padding:0;
+        list-style: none;
+        display: flex;
+        background-color: atoms.$color-teal-light;
+        flex: 1 1 auto;
+        .m-list__item{
+            flex: 1 1 auto;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@use '../atoms' ;
+
+.caja{
+    background-color: atoms.$color-grey;
+    padding: .2em;
+    p{
+        color: atoms.$color-white;
+        font-family: atoms.$font-second;
+        font-size: 18px;
+    }
+}

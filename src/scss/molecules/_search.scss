@@ -1,0 +1,17 @@
+@use '../atoms'  ;
+
+.m-search{
+    &__input{
+        border:1px solid black;
+        border-radius: 5px;
+        height: 2rem;
+    }
+    &__btn{
+        border: none;
+        background-color: atoms.$color-red ;
+        cursor: pointer;
+        color: white;
+        border-radius: 5px;
+        height: 2rem;
+    }
+}
