@@ -1,7 +1,7 @@
 @use '../atoms' ;
 
 .caja{
-    background-color: atoms.$color-grey;
+    background-color: atoms.$color-red;
     padding: .2em;
     p{
         color: atoms.$color-white;
